@@ -1,0 +1,32 @@
+.welcome {
+  color: rgb(0, 47, 255);
+}
+
+.home {
+  display: flex;
+}
+
+.intro {
+  height: 40vmax;
+  width: 40vmax;
+  margin: 5vmax;
+  margin-left: 6vmax;
+}
+
+.myintro {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .intro {
+      height: 30vmax; /* Adjust dimensions for smaller screens */
+      width: 30vmax;
+      margin: 3vmax;
+      margin-left: 4vmax;
+  }
+
+  .home {
+      flex-direction: column; /* Stack items vertically for smaller screens */
+  }
+}

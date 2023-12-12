@@ -1,0 +1,44 @@
+/* Base styles for larger screens */
+.footer {
+  background-color: blue;
+  height: 13vmax;
+  color: beige;
+  display: flex;
+  justify-content: space-around;
+}
+
+.other {
+  margin-left: -2vmax;
+  margin-top: 2vmax;
+}
+
+.getintouch {
+  margin-left: -2vmax;
+  margin-top: 2vmax;
+}
+
+.aboutb {
+  margin-top: 2vmax;
+}
+
+.resume {
+  color: beige;
+  text-decoration: none;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .other,
+  .getintouch,
+  .aboutb {
+      margin: 1vmax;
+  }
+}
+
+  

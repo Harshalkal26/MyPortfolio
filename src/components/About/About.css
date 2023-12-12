@@ -1,0 +1,85 @@
+.eduimg{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vmax;
+}
+.profilepic{
+    width: 30vmax;
+    height: 70vmax;
+    margin-left: 4vmax;
+}
+.college {
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the container */
+    margin: 20px 0;
+    padding-left: 20vmax; /* Spacing outside the container */
+    background-color: #ecf0f1; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+.college>h3{
+    margin-left: -16vmax;
+}
+.college>h4{
+    margin-left: -4vmax;
+}
+.college>p {
+    color: #34495e; /* Paragraph text color */
+    font-weight: bold; /* Bold text */
+    margin-left: -4vmax;
+}
+.experience{
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the container */
+    margin: 20px 0; /* Spacing outside the container */
+    background-color: #ecf0f1; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+.experience>ul{
+    margin-left: 0vmax;
+}
+.skillsec{
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the container */
+    margin: 20px 0; /* Spacing outside the container */
+    background-color: #ecf0f1; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */ 
+}
+.Achiveit{
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the container */
+    margin: 20px 0; /* Spacing outside the container */
+    background-color: #ecf0f1; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */ 
+}
+.postn{
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the container */
+    margin: 20px 0; /* Spacing outside the container */
+    background-color: #ecf0f1; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */ 
+}
+@media only screen and (max-width: 768px) {
+    .eduimg {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center; /* Center items in the column */
+    }
+
+    .profilepic {
+        width: 100%; /* Make the profile picture full width */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 1vmax; /* Add some spacing between profile picture and other elements */
+    }
+
+    .college,
+    .experience,
+    .skillsec,
+    .Achiveit,
+    .postn {
+        margin: 10px 0; /* Reduce margin on small screens */
+    }
+}
